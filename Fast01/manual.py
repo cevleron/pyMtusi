@@ -18,6 +18,10 @@ def rezult():
         ui.X.setText('0')
         rezult()
 
+def navigator():
+    ui.A.setValue(12)
+    ui.T.setValue(2)
+    ui.X.setText("2")
 
 if __name__ == "__main__":
     import sys
@@ -26,9 +30,11 @@ if __name__ == "__main__":
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
+    ui.X.setText("2")
 
     ui.X.setValidator(QtGui.QDoubleValidator())
     ui.ButtonRez.clicked.connect(rezult)
+    ui.ButtonClear.clicked.connect(navigator)
 
     MainWindow.show()
     sys.exit(app.exec())

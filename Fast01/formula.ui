@@ -6,21 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>913</width>
+    <height>649</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Решение уравнений</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
-      <width>735</width>
-      <height>436</height>
+      <y>0</y>
+      <width>871</width>
+      <height>514</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
@@ -30,7 +30,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../../../../Снимок экрана 2023-01-13 в 10.00.30.png</pixmap>
+        <pixmap>formula2.png</pixmap>
        </property>
       </widget>
      </item>
@@ -134,7 +134,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../../../../Снимок экрана 2023-01-13 в 10.00.44.png</pixmap>
+        <pixmap>formula1.png</pixmap>
        </property>
       </widget>
      </item>
@@ -232,7 +232,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>913</width>
      <height>24</height>
     </rect>
    </property>
